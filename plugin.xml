@@ -11,9 +11,9 @@
     </engines>
 
     <platform name="android">
-        <framework src="com.inmobi.monetization:inmobi-ads:7.x.x" />
-        <framework src="com.google.ads.mediation:inmobi:7.x.x.x" />
-        <framework src="com.squareup.picasso:picasso:2.x.x" />
+        <framework src="com.inmobi.monetization:inmobi-ads:7.1.1" />
+        <framework src="com.google.ads.mediation:inmobi:7.1.1.1" />
+        <framework src="com.squareup.picasso:picasso:2.5.2" />
         <framework src="com.android.support:recyclerview-v7:xx.x.x" />
 
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
@@ -40,7 +40,7 @@
 
     <platform name="ios">
         <pods-config ios-min-version="9.0" use-frameworks="true" />
-        <pod id="GoogleMobileAdsMediationInMobi" version="7.x.x.x" />
+        <pod id="GoogleMobileAdsMediationInMobi" version="7.1.2.0" />
 
         <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
         <dependency id="cordova-plugin-cocoapod-support" />
