@@ -14,7 +14,7 @@
         <framework src="com.inmobi.monetization:inmobi-ads:7.1.1" />
         <framework src="com.google.ads.mediation:inmobi:7.1.1.1" />
         <framework src="com.squareup.picasso:picasso:2.5.2" />
-        <framework src="com.android.support:recyclerview-v7:xx.x.x" />
+        <framework src="com.android.support:recyclerview-v7:27.1.1" />
 
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <activity android:name="com.inmobi.rendering.InMobiAdActivity"
